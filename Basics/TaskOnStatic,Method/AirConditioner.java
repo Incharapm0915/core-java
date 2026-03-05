@@ -1,30 +1,24 @@
 class AirConditioner {
 
-    // ===== STATIC VARIABLES =====
+    //  STATIC VARIABLES 
     static String brand = "Daikin";
     static String model = "FTKF50TV";
     static String type = "Split AC";
     static String colour = "White";
-
     static double tonnage = 1.5;
     static int energyRating = 5;
     static boolean inverter = true;
-
     static int coolingCapacity = 5000;
     static String refrigerant = "R32";
     static String compressorType = "Swing Compressor";
-
     static boolean turboMode = true;
     static boolean sleepMode = true;
     static boolean autoClean = true;
-
     static int airFlowLevel = 4;
     static String filterType = "PM2.5 Filter";
-
     static int voltage = 230;
     static double indoorUnitWeight = 11.5;
     static double outdoorUnitWeight = 28.0;
-
     static String warranty = "1 Year Product + 10 Years Compressor";
     static String countryOfOrigin = "India";
     static double rating = 4.6;
@@ -32,37 +26,31 @@ class AirConditioner {
 
     public static void main(String[] args) {
 
-        // ===== LOCAL VARIABLES =====
+        //  LOCAL VARIABLES 
         String brand = "Local AC";
         String model = "Cool Breeze 1T";
         String type = "Window AC";
         String colour = "Grey";
-
         double tonnage = 1.0;
         int energyRating = 3;
         boolean inverter = false;
-
         int coolingCapacity = 3200;
         String refrigerant = "R22";
         String compressorType = "Rotary";
-
         boolean turboMode = false;
         boolean sleepMode = true;
         boolean autoClean = false;
-
         int airFlowLevel = 2;
         String filterType = "Dust Filter";
-
         int voltage = 220;
         double indoorUnitWeight = 18.0;
         double outdoorUnitWeight = 0;
-
         String warranty = "2 Years";
         String countryOfOrigin = "China";
         double rating = 3.9;
 
 
-        // ===== STATIC PRINT =====
+        //  STATIC PRINT 
         System.out.println("---- STATIC VARIABLES ----");
         System.out.println("Brand: " + AirConditioner.brand);
         System.out.println("Model: " + AirConditioner.model);
@@ -87,7 +75,7 @@ class AirConditioner {
         System.out.println("Rating: " + AirConditioner.rating);
 
 
-        // ===== LOCAL PRINT =====
+        //  LOCAL PRINT 
         System.out.println("\n---- LOCAL VARIABLES ----");
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);

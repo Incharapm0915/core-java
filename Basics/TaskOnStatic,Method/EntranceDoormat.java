@@ -9,9 +9,7 @@ class EntranceDoormat {
     static String usage = "Indoor and Outdoor";
 
     static boolean stainResistant = true;
-    static String specialFeatures =
-            "Fade Resistant, Non Slip, Stain Resistant, Washable, Waterproof";
-
+    static String specialFeatures = "Fade Resistant, Non Slip, Stain Resistant, Washable, Waterproof";
     static String waterResistance = "Water Resistant";
     static String surfaceMaterial = "Fur";
     static String backMaterial = "Rubber";
@@ -19,10 +17,7 @@ class EntranceDoormat {
     static String countryOfOrigin = "India";
     static String includedComponents = "1 Doormat";
     static int unitCount = 1;
-
-    static String manufacturerAddress =
-            "VIKCLIQUE Home Furnishing Manufacturer, India";
-
+    static String manufacturerAddress = "VIKCLIQUE Home Furnishing Manufacturer, India";
     static String asin = "B0F88PJMSL";
     static double rating = 4.2;
 
@@ -39,7 +34,6 @@ class EntranceDoormat {
 
         boolean stainResistant = false;
         String specialFeatures = "Soft, Decorative";
-
         String waterResistance = "Not Water Resistant";
         String surfaceMaterial = "Cotton";
         String backMaterial = "Foam";
@@ -47,9 +41,7 @@ class EntranceDoormat {
         String countryOfOrigin = "China";
         String includedComponents = "1 Small Mat";
         int unitCount = 2;
-
         String manufacturerAddress = "Bangalore Manufacturer";
-
         String asin = "LOCALMAT123";
         double rating = 3.7;
 

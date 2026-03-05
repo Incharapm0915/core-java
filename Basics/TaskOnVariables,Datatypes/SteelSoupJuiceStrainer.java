@@ -11,11 +11,7 @@ class SteelSoupJuiceStrainer {
         String countryOfOrigin = "India";
         String includedComponents = "Steel Soup & Juice Strainer";
         boolean isDishwasherSafe = true;
-
-        String packerAddress =
-                "JPS Enterprises, Mangolpuri Industrial Area, "
-              + "Phase II, New Delhi - 110034, India";
-
+        String packerAddress = "JPS Enterprises, Mangolpuri Industrial Area, " + "Phase II, New Delhi - 110034, India";
         int unitCount = 1;
         String asin = "B07MQ8LM29";
         double customerRating = 4.4;
